@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Yonathan Daniel Albino" />
+    <meta name="description" content="Portafolio de Yonathan Daniel Albino" />
+    <meta name="keywords" content="C#, HTML, CSS, SQL SERVER" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio con Boostrap</title>
+    <link href="img/loboIcon.png" rel="icon" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="estilos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="#">
+                    <img src="img/loboIcon.png" width="50" alt="logo de la página" />
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conocimientos">Aptitudes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <%--section hero--%> -->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center aling-items-center">
+            <img class="foto-yonathan" src="img/yo.jpg" alt="foto yonathan albino" />
+            <h1>Hola soy, Yonathan Albino</h1>
+            <h2>Desarrollador Full Stack C#</h2>
+        </div>
+    </section>
+
+    <!-- <%--sobre mi--%> -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Sobre mí</h2>
+            <p class="seccion-texto">
+                Soy técnico en administración de redes y estudiante de desarrollo de software. Me caracterizo por ser una persona responsable y determinada. Mi objetivo actual es estar a la vanguardia de las nuevas tecnologías y enquiquecer mis conocimientos y habilidades. Tengo conociemientos en el área de Fron-end y Back-end, aunque mi fuerte es el Back-end.
+            </p>
+        </div>
+    </section>
+
+    <!-- <%--conocimientos--%> -->
+    <section id="conocimientos" class="experiencia seccion-clara">
+        <h2 class="conocimientos-titulo">Conocimientos</h2>
+        <div class="container text-center">
+            <div class="row">
+                <div class="columna col-12 col-md-3">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Pogramacion orientada a objetos</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Herencia</span>
+                        <span class="badge text-bg-primary">Metodos</span>
+                        <span class="badge text-bg-primary">Constructores</span>
+                        <span class="badge text-bg-primary">Polimorfismo</span>
+                        <span class="badge text-bg-primary">Etc</span>
+                    </div>
+                </div>
+
+                <div class="columna col-12 col-md-3">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Base de datos SQL</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Consultas SQL</span>
+                        <span class="badge text-bg-primary">JOIN</span>
+                        <span class="badge text-bg-primary">Diagrama entidad relación</span>
+                    </div>
+                </div>
+
+                <div class="columna col-12 col-md-3">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">C#</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Desarrolo de App de consola</span>
+                        <span class="badge text-bg-primary">Desarrolo de App de escritorio</span>
+                        <span class="badge text-bg-primary">Desarrolo de App de web</span>
+                    </div>
+                </div>
+
+                <div class="columna col-12 col-md-3">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">.Net Framework</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">.Net Framework 4.8</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <%--proyectos--%> -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
+        <!-- <%--galeria proyectos--%> -->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="proyecto">
+                        <img src="img/captura-portfolio.PNG" alt="Mi portafolio con HTML-CSS" />
+                        <div class="overlay">
+                            <p>Portfolio construido con CSS y HTML</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/YonathanAlbino/Portfolio-Albino-Yonathan" target="_blank" rel="nooprnrt noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://yonathanalbino.github.io/Portfolio-Albino-Yonathan/index.html" target="_blank" rel="nooprnrt noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="proyecto">
+                        <img src="img/2.jpeg" alt="Proyecto gestión artículos" />
+                        <div class="overlay">
+                            <p>Proyecto gestión de artículos</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/YonathanAlbino/TpFinalNivel2" target="_blank" rel="nooprnrt noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- <%--cursos--%> -->
+    <section id="cursos" class="capacitaciones seccion-clara">
+        <h2 class="seccion-titulo">Capacitaciones</h2>
+        <h3 class="seccion-descripcion">Cursos realizados</h3>
+        <!-- <%--carrusel--%> -->
+        <div id="cursos-carrusel" class="carousel carousel-dark slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/Certificado-curso-intro-algoritmos.PNG" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img src="img/Certificado-curso-intro-java.PNG" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img src="img/certificado-curso-base-de-datos2.PNG" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img src="img/certificado-nivel-1.PNG" class="d-block w-100" />
+                </div>
+                <div class="carousel-item">
+                    <img src="img/certificado-nivel-2.PNG" class="d-block w-100" />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#cursos-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cursos-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- <%--contacto--%> -->
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class=" rectangulo container text-center d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 descripcion">
+                        Tienes un proyecto en mente? 
+                    </div>
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡HABLEMOS!
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:yonaalbino5@gmail.com">
+                            <button type="button">
+                                Contacto
+                        <i class="bi bi-envelope-check-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <%--footer--%> -->
+    <footer class="seccion-oscura d-flex flex-column aling-items-center justify-content-center">
+        <img class="footer-logo" src="img/loboIcon.png" alt="logo-portafolio" />
+        <p class="footer-texto text-center">Creemos un proyecto juntos</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap aling-items-center justify-content-center">
+            <a href="https://www.linkedin.com/in/yonathan-albino-342711248/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://github.com/YonathanAlbino" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.instagram.com/yonathan.albino/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:yonaalbino5@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Yonathan Albino (2023) &#169;</div>
+    </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
